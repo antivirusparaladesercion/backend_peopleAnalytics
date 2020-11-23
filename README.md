@@ -56,12 +56,4 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/antivirusparaladesercion/backend_peopleAnalytics/network/dependencies) quíenes han participado en este proyecto. 
 
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto y anímate a contribuir📢
-* Gracias a todo el equipo de Antivirus para la deserción
 
