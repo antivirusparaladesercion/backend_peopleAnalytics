@@ -16,19 +16,21 @@ El proyecto fué creado usando NodeJS en su versión 12, para ejecutar el proyec
 
 * Una vez finalizada la instalación, ejecuta el comando ``` npm start ``` para ejecutar el proyecto. Si todo es satisfactorio, se obtendrá un mensaje como el siguiente en la consola: **Server is running on port 8080**
 
-```
-Da un ejemplo
-```
+## Probando el endpoint
 
-_Y repite_
+Puedes probarlo en la consola de tu equipo con este código curl y colocando la ruta del archivo en la última fila, luego del @/ del atributo form
 
 ```
-hasta finalizar
+curl --location --request POST 'http://localhost:8080/api/v1/data-upload' \
+--header 'enctype: multipart/form-data' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--form 'data=@/C:/Users/Diego/Downloads/validation.csv'
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+## Documentación de la API
 
-## Ejecutando las pruebas ⚙️
+Está disponible en el siguiente enlace:
+* [Documentación de la API](https://documenter.getpostman.com/view/5707571/TVev5R4M)
 
 ## Despliegue 📦
 
