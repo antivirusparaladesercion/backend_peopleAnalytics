@@ -14,7 +14,9 @@ El proyecto fué creado usando NodeJS en su versión 12, para ejecutar el proyec
 ### Instalación 🔧
 * Luego de clonar este repositorio, ejecuta la instrucción ``` npm install ``` en el directorio del proyecto para instalar las dependencias necesarias para su funcionamiento
 
-* Una vez finalizada la instalación, ejecuta el comando ``` npm start ``` para ejecutar el proyecto. Si todo es satisfactorio, se obtendrá un mensaje como el siguiente en la consola: **Server is running on port 8080**
+* Configurar en un archivo .env en la raíz del proyecto las siguientes variables de entorno: S3_BUCKET, AWS_ACCESS_KEY_ID y AWS_SECRET_ACCESS_KEY con sus respectivos valores. Ejemplo: AWS_ACCESS_KEY_ID="clavedeprueba2345"
+
+* Una vez finalizada la instalación y configuradas las variables de entorno, ejecuta el comando ``` npm start ``` para ejecutar el proyecto. Si todo es satisfactorio, se obtendrá un mensaje como el siguiente en la consola: **Server is running on port 8080**
 
 ## Probando el endpoint
 
