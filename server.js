@@ -1,7 +1,9 @@
+// Imports necesarios
 const express = require("express");
 const fileRoutes = require("./server/routes/file-upload");
 const cors = require("cors");
 
+// Creación de instancia de express
 const app = express();
 
 //var corsOptions = {
@@ -21,6 +23,7 @@ app.get("/", (req, res) => {
     res.json({ message: "Backend funcionando" });
 });
 
+// Ruta raíz del proyecto
 app.use("/api/v1/", fileRoutes);
 
 
