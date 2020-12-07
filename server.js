@@ -4,10 +4,16 @@ const cors = require("cors");
 
 const app = express();
 
-var corsOptions = {
-  origin: "http://localhost:3000" // modified from 8081
-};
+//var corsOptions = {
+//  origin: "*" // modified from 8081
+//};
 
+// app.options('*', cors())
+
+let corsOptions = {
+  origin: 'http://frontend-antivirus-prod.s3-website.us-east-2.amazonaws.com/',
+  optionsSuccessStatus: 200
+}
 
 app.use(cors(corsOptions));
 
