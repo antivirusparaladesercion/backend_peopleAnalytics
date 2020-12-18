@@ -4,11 +4,11 @@ const cors = require("cors");
 
 const app = express();
 
-var corsOptions = {
-  origin: "http://frontend-antivirus-prod.s3-website.us-east-2.amazonaws.com"
-};
+// var corsOptions = {
+//   origin: "http://frontend-antivirus-prod.s3-website.us-east-2.amazonaws.com"
+// };
 
-app.use(cors(corsOptions));
+app.use(cors())
 
 app.get("/", (req, res) => {
     res.json({ message: "Backend funcionando" });
